@@ -1,0 +1,45 @@
+%NAME%
+gssproxy
+
+%VERSION%
+0.9.1-2
+
+%BASE%
+gssproxy
+
+%DESC%
+GSSAPI Proxy
+
+%URL%
+https://github.com/gssapi/gssproxy
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1654542911
+
+%INSTALLDATE%
+1680329291
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+251413
+
+%REASON%
+1
+
+%LICENSE%
+custom: MIT
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+libverto-module-base
+popt
+ding-libs
+systemd-libs
+

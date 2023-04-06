@@ -1,0 +1,55 @@
+%NAME%
+cloud-init
+
+%VERSION%
+23.1.1-1
+
+%BASE%
+cloud-init
+
+%DESC%
+Cloud instance initialization
+
+%URL%
+https://cloud-init.io
+
+%ARCH%
+any
+
+%BUILDDATE%
+1677783596
+
+%INSTALLDATE%
+1680329290
+
+%PACKAGER%
+David Runge <dvzrv@archlinux.org>
+
+%SIZE%
+5744214
+
+%LICENSE%
+GPL3
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+dhclient
+python-configobj
+python-jinja
+python-jsonpatch
+python-jsonschema
+python-netifaces
+python-oauthlib
+python-requests
+python-pyserial
+python-pyyaml
+python-typing-extensions
+sudo
+systemd
+
+%OPTDEPENDS%
+cloud-guest-utils: for growpart
+netplan: for configuring network using netplan
+
