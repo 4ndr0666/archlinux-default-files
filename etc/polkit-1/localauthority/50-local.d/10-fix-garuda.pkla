@@ -1,0 +1,6 @@
+[Allow garuda-welcome for USER]
+Identify=unix=user:andro
+Action=org.garuda.libs.install-software
+ResultAny=yes
+ResultInactive=yes
+ResultActive=yes
